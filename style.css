@@ -7,10 +7,14 @@
   margin-right: 63%;
   }
 
-.logo, .menu {
+.logo {
  display: inline-block;
   }
 
+.menu {
+  display: inline-block;
+  }
+  
 .header {
   display: flex;
   justify-content: space-between;
