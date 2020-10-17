@@ -3,18 +3,21 @@
   width: 80%;
 }
 
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
-  margin-right: 63%;
-  display: inline-block;
+  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');
 }
 
 .menu {
-  display: inline-block;
-}
-
-.header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .menu__item {
@@ -23,4 +26,28 @@
 
 .menu__item:last-child {
   padding-right: 0;
+}
+
+.main-content__title {
+  width: 567px;
+  height: 255px;
+  margin-top: 24%;
+  font-family: pt_serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+  display: flex;
+  align-items: center;
+}
+
+.main-content__subtitle {
+  width: 455px;
+  height: 52px;
+  margin-top: 4%;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
 }
