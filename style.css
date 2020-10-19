@@ -35,13 +35,13 @@
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #c8dBfb;
+  background: #c8dbfb;
 }
 
 .menu {
   display: flex;
   align-items: center;
-  font-family: 'robotomedium';
+  font-family: 'robotomedium', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -60,7 +60,7 @@
   width: 567px;
   height: 255px;
   margin-top: 24%;
-  font-family: 'pt_serif';
+  font-family: 'pt_serif', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 66px;
@@ -73,7 +73,7 @@
   width: 455px;
   height: 52px;
   margin-top: 4%;
-  font-family: 'roboto';
+  font-family: 'roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -84,12 +84,12 @@
   width: 250px;
   height: 29px;
   margin-top: 4%;
-  font-family: 'robotomedium';
+  font-family: 'robotomedium', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 21,09px;
-  color: #ffffff;
+  line-height: 21.09px;
+  color: #fff;
   border-radius: 4px;
   background: #0056ec;
 }
