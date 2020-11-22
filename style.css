@@ -350,8 +350,8 @@
      visibility: hidden;
      height: 100%;
      width: 100%;
-     padding-top: 47%;
-     padding-left: 4%;
+     padding-top: 42%;
+     padding-left: 3%;
      list-style: none;
      background-color: #fff;
      transition-duration: 0.25s;
@@ -398,6 +398,10 @@
 
    .menu__item:hover {
      opacity: 0.8;
+   }
+
+   .menu__item:last-child {
+     margin-right: 8%;
    }
 
    .menu__btn {
