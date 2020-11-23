@@ -9,6 +9,18 @@
   margin-bottom: 100px;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 57%;
+  }
+}
+
 .logo {
   position: relative;
   width: 190px;
@@ -59,7 +71,7 @@
   font: 500 18px/21px 'roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0.7;
   transition: 0.4s;
 }
 
@@ -75,7 +87,7 @@
 }
 
 .menu__item:hover {
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .menu__item:hover::after {
@@ -123,6 +135,7 @@
   text-decoration: none;
   border-radius: 4px;
   transition: 0.5s;
+  animation: slidein 2s 1;
 }
 
 .main__button:hover {
